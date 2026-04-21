@@ -1,0 +1,15 @@
+.consolas img {
+  width: 50%;
+  margin: 4rem;
+  /* CLAVE: Evita que la imagen se vea estirada o aplastada */
+  object-fit: cover;
+}
+
+.reason-title {
+  text-align: center;
+  color: antiquewhite;
+}
+.consolas {
+  padding: 4rem;
+  margin: 2rem;
+}

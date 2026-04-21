@@ -1,0 +1,47 @@
+/* Fuente especial para el título */
+.font-orbitron {
+  font-family: "Orbitron", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 0 0 15px #00fbff;
+}
+
+/* Tarjeta estilo Cristal (Glassmorphism) */
+.glass-card {
+  background: rgba(255, 255, 255, 0.1); /* Blanco muy transparente */
+  backdrop-filter: blur(15px); /* El efecto borroso */
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgb(5, 120, 187);
+  color: white;
+}
+
+/* Estilo para los inputs */
+.form-control,
+.form-select {
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid #444;
+  color: rgb(5, 120, 187) !important;
+}
+
+.form-control:focus,
+.form-select:focus {
+  background: rgba(0, 0, 0, 0.7);
+  border-color: #00fbff;
+  box-shadow: 0 0 10px rgba(0, 251, 255, 0.5);
+}
+
+/* Botón Neón */
+.btn-gamer-cyan {
+  background-color: #00fbff;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.btn-gamer-cyan:hover {
+  box-shadow: 0 0 20px rgb(5, 120, 187);
+  transform: translateY(-2px);
+}
