@@ -108,11 +108,27 @@ header nav ul {
   box-shadow: 7px 7px 10px rgb(5, 120, 187);
   padding: 50px;
 }
-.logof{
-  width: 150px;
+
+.social-icons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Espacio entre iconos */
+  padding: 0;
+  margin-top: 15px;
 }
+
+.social-icons i {
+  font-size: 24px; /* Tamaño del icono */
+  color: #fff; /* Cambia el color según tu diseño */
+  transition: 0.3s;
+}
+
+.social-icons i:hover {
+  color: rgb(5, 120, 187); /* Color cuando pasas el mouse */
+}
+
 .footer {
-  
   text-align: center;
   padding: 1rem;
   margin-top: auto;
